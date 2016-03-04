@@ -10,16 +10,39 @@
 			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
 			
-			{% include css_default.html %}
+			{% include css_other.html %}
 			
 		</head>
 		<body>
 		
 		{% include menu.html %}
-		
+			
 			<div class="container">
 			
-			{{ content }}
+				<div class="row">
+				
+					<h1>{{ page.title }}</h1>
+						
+					<aside class="col-xs-12 col-sm-4">
+					
+						 <div class="list-group">
+							  <a href="#" class="list-group-item active">
+								Kategórie
+							  </a>
+							  <a href="/filmy/komedie.html" class="list-group-item">Komédie</a>
+							  <a href="/filmy/kriminalky.html" class="list-group-item">Kriminálky</a>
+							  <a href="/filmy/thriller.html" class="list-group-item">Thriller</a>
+							</div>
+					
+					</aside>
+				
+					<section class="col-xs-12 col-sm-8">
+						
+						{{ content }}
+						
+					</section>
+					
+				</div>
 			
 			<hr>
 
