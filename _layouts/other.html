@@ -25,14 +25,29 @@
 						
 					<aside class="col-xs-12 col-sm-4">
 					
-						 <div class="list-group">
+					<div class="list-group">
+						
 							  <a href="#" class="list-group-item active">
-								Kategórie filmov
+								Kategórie
 							  </a>
-							  <a href="/filmy/komedie.html" class="list-group-item">Komédie</a>
-							  <a href="/filmy/kriminalky.html" class="list-group-item">Kriminálky</a>
-							  <a href="/filmy/thriller.html" class="list-group-item">Thriller</a>
-							</div>
+							  
+							  {% if page.url contains 'filmy' %}
+							   {% for film in site.films %}
+							   <a href="{{ film.adresa }}" class="list-group-item">{{ film.title }}</a>
+							   {% endfor %}
+							   
+							  {% endif %}
+							  
+							  
+							  {% if page.url contains 'serialy' %}
+								  {% for serial in site.serials %}
+								   <a href="{{ serial.adresa }}" class="list-group-item">{{ serial.title }}</a>
+								   {% endfor %}
+							  
+							  {% endif %}
+							  
+						</div>
+										 
 					
 					</aside>
 				

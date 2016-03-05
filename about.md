@@ -12,3 +12,6 @@ permalink: /about/
 
 Volám sa Veronika Balážová a som študentkou na Fakulte informatiky a informačných technológií v Bratislave. Táto fakulta patrí
 pod Slovenskú technickú univerzitu. Momentálne som v 3.ročníku bakalárskeho štúdia.
+
+
+Medzi moje záľuby patrí 
