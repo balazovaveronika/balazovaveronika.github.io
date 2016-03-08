@@ -1,0 +1,12 @@
+---
+layout: default
+title: Webové publikovanie
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="posts">
+
+{% for zadanie in site.zadania %}
+	<li><span>{{ zadanie.date | date_to_string }}</span> » <a href="{{ zadanie.url }}" title="{{ zadanie.title }}">{{ zadanie.title }}</a></li>
+{% endfor %}
