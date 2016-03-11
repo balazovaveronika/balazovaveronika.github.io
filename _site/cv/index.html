@@ -20,56 +20,112 @@ body {
 }
 
 h1 {
-	color: #6A7CAE;
+	color: #669999;
+}
+
+a {
+	color: #FF3333;
+}
+
+a:active,
+a:hover,
+a:focus {
+	color: #830505;
 }
 
 blockquote {
 	font-size: 13px;
 }
 </style>
+			<style type="text/css">
+.container {
+	width: 980px;
+}
+
+#custom-bootstrap-menu.navbar{ background-color: yellow }
+
+#custom-bootstrap-menu.navbar-default { border: none; }
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(0, 51, 51, 1);
+    border-bottom-width: 1px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(0, 51, 51, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(34, 34, 34, 1);
+    background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #003333;
+}
+
+#custom-bootstrap-menu.navbar-default { background-image: none; }
+
+</style>
 			
 		</head>
 		<body>
 		
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-					
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Menu</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="/">VB STRÁNKA</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav">
-				<li><a href="/">Úvod</a></li>
-				<li><a href="/about">O mne</a></li>
-				<li><a href="/cv">CV</a></li>
-				<li class="dropdown">
+		<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header"><a class="navbar-brand" href="/">VB STRÁNKA</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Úvod</a>
+                </li>
+                <li><a href="/about">O mne</a>
+                </li>
+                <li><a href="/cv">CV</a>
+                </li>
+                <li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moje projekty <span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="/zadania">Webové publikovanie</a></li>
 					<li><a href="/ostatne">Ostatné</a></li>
 				  </ul>
 				</li>
-				<li class="dropdown">
+                <li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tipy na filmy <span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="/filmy">Filmy</a></li>
 					<li><a href="/serialy">Seriály</a></li>
 				  </ul>
 				</li>
-				<li><a href="/kontakt">Kontakt</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
+                <li><a href="/galeria">Galéria</a></li>
+                <li><a href="/kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 			<div class="container">
 			
 			<h1 id="curriculum-vitae">Curriculum vitae</h1>
