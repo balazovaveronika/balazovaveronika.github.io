@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Veronika Balážová - Blog
+title: Veronika Balážová - Stránka
 description: "Môj životopis"
-keywords: "cv, popis, blog, osobne udaje, vzdelavanie"
+keywords: "cv, popis, stranka, osobne udaje, vzdelavanie"
 permalink: /
 ---
 Ahoj, som Veronika !

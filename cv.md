@@ -2,7 +2,7 @@
 layout: personal
 title: Curriculum vitae
 description: "Môj životopis"
-keywords: "cv, popis, blog, osobne udaje, vzdelavanie"
+keywords: "cv, popis, stranka, osobne udaje, vzdelavanie"
 permalink: /cv/
 ---
 {{page.title}}
