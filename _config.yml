@@ -1,5 +1,6 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
+gems: ["emoji_for_jekyll"]
 collections:
  - films
  - serials

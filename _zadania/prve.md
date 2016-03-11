@@ -1,7 +1,5 @@
 ---
 layout: default
 title: 1.zadanie
-date: 2014-04-30
+date: 2016-03-13
 ---
-
-1.zadanie

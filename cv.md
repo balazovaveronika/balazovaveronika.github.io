@@ -85,11 +85,15 @@ permalink: /cv/
 >
 > - MS Windows - používateľská úroveň
 >
-> - Programovanie v jazyku C (mierne pokročilý)
+> - Java
 >
-> - Programovanie v jazyku Java (mierne pokročilý)
+> - C
 >
-> - Programovanie v jazyku SQL (základy)
+> - MySQL
+>
+> - HTML + CSS
+>
+> - UML
 >
 > - Grafický software Gimp
 >
