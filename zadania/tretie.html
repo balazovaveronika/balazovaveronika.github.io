@@ -31,3 +31,27 @@ Klaďte dôraz na znovupoužitie jednotlivých šablon pre viaceré výstupné f
 <p>
 	Riešenie:
 </p>
+
+<p>
+Ako ukážkovú prezentáciu som si vybrala krátku prezentáciu o mojej bakalárskej práci, ktorú som prezentovala v škole.
+</p>
+
+<p>
+
+Na začiatku som vytvorila XML súbor, ktorý predstavuje moju vybranú prezentáciu. Jednotlivé elementy, ktoré sú
+v XML súbore, sú opísané typom dokumentu pomocou jazyka RELAX NG a zároveň som vytvorila aj dokument popisujúci účel
+jednotlivých elementov. 
+Základné metadátové elementy predstavujú podrobnosti o prezentácii, medzi ktorými sú autor prezentácie, vedúci a dátum. Základným
+štrukturálnym elementom je prezentácia, ktorá predstavuje koreňový element, a ďalej názov slajdu a obsah slajdu. V rámci obsahu 
+slajdu je možné pridávať buď obrázok alebo text vo forme odrážok a tieto odrážky oddeliť medzerou.
+
+</p>
+
+<p>
+
+Vybranú prezentáciu je možné transformovať do XHTML+CSS a takisto do PDF. Aby bola možná transformácia, tak som vytvorila
+dva xsl súbory. Jeden generuje XML do XHTML+CSS a druhý generuje XML do PDF. Zároveň, oba tieto súbory využívajú
+ďalší xsl súbor, v rámci ktorého sú definované spoločné premenné, ktoré sa využívajú v oboch xsl súboroch pre
+transformáciu. V nich je možné definovať napríklad farbu písma, veľkosť písma a podobne.
+
+</p>
